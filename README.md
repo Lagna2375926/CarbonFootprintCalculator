@@ -1,2 +1,24 @@
-# CarbonFootprintCalculator
-Carbon Footprint Predictor is a web application that estimates embodied carbon emissions for building projects using a machine learning model. Users input key design and material parameters to receive accurate CO₂e predictions. Built with Streamlit and XGBoost for an efficient and user-friendly experience.
+# Carbon Footprint Predictor
+
+**Carbon Footprint Predictor** is a web application that estimates the embodied carbon emissions (CO₂e) of building construction projects based on key design parameters. This tool helps architects, engineers, and sustainability professionals assess and minimize the environmental impact of their projects using machine learning.
+
+---
+
+## Features
+
+- Predicts embodied carbon emissions based on inputs like floor area, number of floors, concrete volume, steel mass, climate zone, and transport radius.
+- Uses a trained XGBoost regression model for accurate predictions.
+- Interactive and user-friendly interface built with Streamlit.
+- Easily accessible via a public URL using ngrok tunneling (for local development).
+
+---
+
+## Technologies Used
+
+- Python  
+- Streamlit  
+- XGBoost  
+- Pandas  
+- NumPy  
+- Joblib  
+- Pyngrok
